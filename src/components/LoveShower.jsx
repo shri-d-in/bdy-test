@@ -7,11 +7,11 @@ const LoveShower = ({ message }) => {
     const items = [];
     const numberOfItems = 100;
     const possibleItems = [
-      "❤️",
-      "💖",
-      "💓",
-      "💘",
-      "💝",
+      "⭐",
+      "⭐",
+      "⭐",
+      "⭐",
+      "⭐",
       "🌸",
       "🌷",
       "🌺",
@@ -37,9 +37,9 @@ const LoveShower = ({ message }) => {
       "🥀",
       "🪷",
       "🌹",
-      "💗",
+      "⭐",
       "🥰",
-      "💞",
+      "⭐",
       "😊",
       "👸",
       "🥺",
@@ -55,8 +55,8 @@ const LoveShower = ({ message }) => {
           className={`falling ${
             randomItem === "🎈"
               ? "balloon"
-              : randomItem === "❤️"
-              ? "heart"
+              : randomItem === "⭐"
+              ? "star"
               : "flower"
           }`}
           style={{
