@@ -23,6 +23,7 @@ function App() {
         <Route path="/notired" element={<NoTired />} />
       </Routes>
     </Router>
+    {/* Footer: Created by ChatGPT - © 2026 */}
   );
 }
 
